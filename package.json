@@ -1,0 +1,27 @@
+{
+  "name": "mission4pracv2",
+  "version": "1.0.0",
+  "description": "test for mission 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonne-bonne/mission4pracv2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bonne-bonne/mission4pracv2/issues"
+  },
+  "homepage": "https://github.com/bonne-bonne/mission4pracv2#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
