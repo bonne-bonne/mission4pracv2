@@ -12,7 +12,9 @@ app.use(express.json());
 //========================= ENDPOINTS ==================================//
 
 //TEST
-app.get("/")
+app.get("/", (req,res) => {
+    return res.status(200).send("This is my Mission 4 nodejs app")
+});
 
 //API 3
 app.post('/quote', (req, res) =>{
