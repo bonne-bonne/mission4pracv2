@@ -11,6 +11,9 @@ app.use(express.json());
 
 //========================= ENDPOINTS ==================================//
 
+//TEST
+app.get("/")
+
 //API 3
 app.post('/quote', (req, res) =>{
     const car_value = req.body.car_value;
